@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Rubik:300');
+
+*  {
+	font-family: 'Rubik', sans-serif;
+  }
+
+body  { 
+	padding-top: 50px; 
+  }
+
+main  {
+	background-color: black;
+	color: white;
+  }
+
+hr  {
+	margin: 50px;
+  }
+
+section>h3, .gallery h3  {
+	margin: 25px;
+  }	
+
+section.gallery  {
+	padding: 100px 15px 50px 15px;
+  }
+
+.btn-danger  {
+	outline: transparent;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 20px;
+  }
+
+.btn-danger:hover  {
+	outline: transparent;
+  }  
+  
+  
+/*header*/
+.carousel  {
+	padding-right: 0px;
+	padding-left: 0px; 
+  }
+	
+[class*="slide"]  {
+	height: calc(100vh - 50px);
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+  }
+
+.slide-1  {
+	background-image: url(https://images.pexels.com/photos/2255/black-and-white-city-houses-skyline.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+
+.slide-2  {
+	background-image: url(https://images.pexels.com/photos/29068/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+	
+.slide-3  {
+	background-image: url(https://images.pexels.com/photos/24972/pexels-photo-24972.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+
+.slide-4  {
+	background-image: url(https://images.pexels.com/photos/204173/pexels-photo-204173.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+
+.slide-5  {
+	background-image: url(https://images.pexels.com/photos/2255/black-and-white-city-houses-skyline.jpg?w=1260&h=750&auto=compress&cs=tinysrgb);
+  }
+	
+.header  {
+	position: relative;
+  }
+
+div.text-center-1  {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+  }	  
+
+
+/*table*/
+.people.container  {
+	position: relative;
+  }
+
+div.text-center-2  {
+	position: absolute;
+	top: 112%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+  }
+
+tbody tr:hover  {
+	color: black;
+  } 
+
+.modal  {
+	color: black;
+  }
+
+  
+/*contact form*/ 
+h3 small  {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+  }
+
+/*tabs*/
+.nav-tabs  {
+	border-bottom: transparent;
+	margin-bottom: 10px;
+  }
+
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:hover  {
+	color: black;
+  }
+
+a  {
+	color: white;
+  }
+
