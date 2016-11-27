@@ -1,0 +1,22 @@
+{
+  "name": "kodilla-blackandwhite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "kodilla-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mery-b/kodilla-blackandwhite.git"
+  },
+  "author": "mery-b",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mery-b/kodilla-blackandwhite/issues"
+  },
+  "homepage": "https://github.com/mery-b/kodilla-blackandwhite#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
